@@ -1,0 +1,19 @@
+h3
+{
+    font-size : 25px !important ;
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+canvas
+{
+    animation-name: box-shadow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-shadow {
+ from {box-shadow: 1px 1px 38px  rebeccapurple;}
+ to {box-shadow: 1px 1px 1px 38px royalblue;}
+}
